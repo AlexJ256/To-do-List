@@ -1,0 +1,74 @@
+:root{
+    --bg-color: turquoise;
+    --bg-color-text:orchid;
+    --fav: rgb(151, 106, 197);
+    --border-radius: 15px;
+}
+
+body {
+    background-color: bisque;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: var(--bg-color);
+    padding: 20px;
+    border-radius: 30px;
+    position: sticky;
+    top: 10px;
+    width: 800px;
+    margin: auto;
+}
+
+.titulo {
+    background-color: var(--bg-color-text);
+    color: white;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    border-radius: var(--border-radius);
+}
+
+input{
+    width: 200px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: var(--border-radius);
+}
+
+#boton_agregar {
+    border-radius: var(--border-radius);
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+.tareas {
+    background-color: var(--bg-color);
+    border-radius: var(--border-radius);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: var(--border-radius);
+}
+
+
+.eliminar{
+    border-radius: var(--border-radius);
+    padding: 10px;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+}
